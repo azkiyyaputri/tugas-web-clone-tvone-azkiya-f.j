@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    padding: 4% 15%;
+}
+
+.header {
+    padding: 4% 15%;
+}
+
+header .logo img {
+    width: 25%;
+    margin-bottom: 2rem;
+}
+
+.navbar1 {
+    background: rgb(199, 13, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    font-size: 12.5px;
+    color: #fff;
+    border-left: 2px solid rgb(65, 65, 65);
+    padding: 3px 0 3px 13.4px; 
+    font-weight: 600;
+}
+
+.navbar1 a img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 17px;
+    display: flex;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.navbar2 img {
+    border-left: 2px solid rgb(65, 65, 65);
+}
+
+.navbar2 a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14.5px;
+    padding: 5px 13px 5px 17px;
+    border-left: 2px solid rgb(65, 65, 65);
+}
+
+.home {
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 57vh;
+    /* background: red; */
+}
+
+.home-container1 {
+    cursor: pointer;
+    width: 68%;
+}
+
+.home-container1 img {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 8px;
+    width: 47%;
+}
+
+.home-container1 h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    width: 95%;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 33% 0 0 2%;
+    /* background: red; */
+}
+
+.home-container2 {
+    cursor: pointer;
+    /* background: blue; */
+    width: 32%;
+}
+
+.home-container2 img {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 8px;
+    width: 22.5%;
+}
+
+.home-container2 h1 {
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 25% 0 0 2%;
+}
+
+.home2 {
+    width: 100%;
+    border: 1px solid rgba(65, 65, 65, 0.233);
+    border-radius: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.home2 img.back-banner {
+    width: 70%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.home2 img.cntnt-banner {
+    width: 75%;
+    padding: 1rem 0 12px 0;
+}
+
+.content-container .background {
+    transform: scaleY(-1) scaleX(-1);
+    padding-bottom: 90vh;
+    border-radius: 10px;
+    position: absolute;
+    object-fit: cover;
+    width: 70%;
+}
+
+.content-container {
+    height: 122vh;
+    background: #f3f3f3;
+    justify-content: center;
+
+}
+
+.content-container {
+    padding-top: 2rem;
+    color: gray;
+    /* text-align: center; */
+}
+
+.content-container h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.inner-content1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin-bottom: 1.5rem;
+}
+
+
+.artikel {
+    background: #fff;
+    width: 32%;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.artikel h2 {
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 88%;
+    padding: 4% 4% 10% 4%;
+    cursor: pointer;
+}
+
+.artikel h2:hover {
+    color: red;
+}
+
+.img-content {
+    height: 180px;
+    width: 290px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img-content img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.inner-content2 {
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artikel2 {
+    background: #fff;
+    width: 32%;
+    color: rgb(65, 65, 65);
+    z-index: 2;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+}
+
+.artikel2 h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom:1.5rem;
+    text-align: center;
+}
+
+.artikel2 h6 {
+    text-align: center;
+}
+
+.artikel2 h4 {
+    text-align: center;
+    color: red;
+    margin-bottom: 1.5rem;
+}
+
+.partai {
+    display: flex;
+    justify-content: center;
+}
+
+.partai img {
+    z-index: 200;
+    width: 15%;
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+}
+
+.img-content2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-content2 img {
+    width: 45%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.img-content2-1 {
+    width: 100%;
+    height: 47%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-content2-1 img {
+    width: 45%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.konten-terbaru {
+    display: flex;
+    width: 80%;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.home3 h3 {
+    font-size: 24px;
+    color: rgb(119, 119, 119);
+    margin: 1rem 0;
+}
+
+.konten-terbaru img {
+    width: 30%;
+    margin-right: 1rem;
+    border-radius: 17px;
+}
+
+.isi-terbaru {
+    width: 70%;
+}
+
+.isi-terbaru h4 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.isi-terbaru h5 {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(145, 145, 145);
+}
+
+.home4 h3 {
+    font-size: 24px;
+    color: rgb(119, 119, 119);
+    margin: 3rem 0 1rem 0;
+}
+
+.kelompok {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.video-terbaru {
+    background: #fff;
+    width: 32%;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    margin-right: 1rem;
+}
+
+.thumbnail-video {
+    height: 180px;
+    width: 303px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.thumbnail-video img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.video-terbaru h2 {
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 88%;
+    padding: 4% 4% 2% 6%;
+    cursor: pointer;
+}
+
+.video-terbaru h6 {
+    padding: 0 0 8% 6%;
+}
+
+.footer {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: rgb(37, 37, 37);
+    height: 40vh;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h4 {
+    color: rgb(119, 119, 119);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.isi-footer1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 7%;
+    width: 45%;
+    border-top: 1px solid rgba(255, 175, 175, 0.384);
+    border-bottom: 1px solid rgba(255, 175, 175, 0.384);
+    margin-bottom: 1rem;
+}
+
+.isi-footer1 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.isi-footer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.isi-footer2 img {
+    width: 6%;
+    margin: 2rem 1rem;
+}
